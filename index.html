@@ -79,22 +79,12 @@
             animation: fade-in-up 1s ease-out forwards;
             opacity: 0;
         }
-        
-        /* Hiệu ứng nhảy nhót cho tiêu đề */
-        @keyframes jump {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0); }
-        }
-        .jump-animation {
-            animation: jump 1s ease-in-out infinite;
-        }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1 class="animated jump-animation" style="animation-delay: 0.5s;">
+        <h1 class="animated" style="animation-delay: 0.5s;">
             <span class="emoji">🎉</span> Chúc Mừng Sinh Nhật Cha! <span class="emoji">🎂</span>
         </h1>
         
